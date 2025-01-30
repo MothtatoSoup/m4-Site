@@ -9,9 +9,16 @@
 
       Filename: js02.js
  */
+
+
+
+
+const EMP_COST = 100; // cost of photographers /hr
+const BOOK_COST = 350;
+const REPRO_COST = 125-;
+const TRAVEL_COST = 2;
+
 window.addEventListener("load", setupForm);
-
-
 
 function setupForm() {
       document.getElementById("photoNum").value = 1;
