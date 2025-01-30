@@ -26,6 +26,7 @@ function setupForm() {
       document.getElementById("makeBook").value = false;
       document.getElementById("photoRights").value = false;
       document.getElementById("photoDist").value = 0;
+      getEstimate();
 }
 
 
@@ -42,4 +43,6 @@ function getEstimate() {
       totalCost += photographers * distance * TRAVEL_COST;
       totalCost += buyBooks ? BOOK_COST : 0;
       totalCost += buyRights ? REPRO_COST: 0;
+
+      document.getElementById("estimate").innerHTML = "$" + totalCost;
 }
