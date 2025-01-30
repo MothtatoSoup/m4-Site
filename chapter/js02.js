@@ -9,6 +9,9 @@
 
       Filename: js02.js
  */
+window.addEventListener("load", setupForm);
+
+
 
 function setupForm() {
       document.getElementById("photoNum").value = 1;
