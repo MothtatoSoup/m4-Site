@@ -35,6 +35,9 @@ function getEstimate() {
       let photographers = document.getElementById("photoNum").value;
       let hours = document.getElementById("photoHrs").value;
       let distance = document.getElementById("photoDist").value;
+      let buyBooks = document.getElementById("makeBook").checked;
+      let buyRights = document.getElementById("photoRights").checked;
+
       totalCost += photographers * hours * EMP_COST;
       totalCost += photographers * distance * TRAVEL_COST;
 }
