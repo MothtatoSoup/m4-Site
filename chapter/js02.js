@@ -26,7 +26,14 @@ function setupForm() {
       document.getElementById("makeBook").value = false;
       document.getElementById("photoRights").value = false;
       document.getElementById("photoDist").value = 0;
+
       getEstimate();
+
+      document.getElementById("photoNum").onchange = getEstimate;
+      document.getElementById("photoHrs").onchange = getEstimate;
+      document.getElementById("makeBook").onchange = getEstimate;
+      document.getElementById("photoRights").onchange = getEstimate;
+      document.getElementById("photoDist").onchange = getEstimate;
 }
 
 
