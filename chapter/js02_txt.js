@@ -4,9 +4,17 @@
 
       Fan Trick Fine Art Photography
       Variables and functions
-      Author: 
-      Date:   
+      Author: Maddy
+      Date:   1/30
 
       Filename: js02.js
  */
+
+function setupForm() {
+      document.getElementById("photoNum").value = 1;
+      document.getElementById("photoHrs").value = 2;
+      document.getElementById("makeBook").value = false;
+      document.getElementById("photoRights").value = false;
+      document.getElementById("photoDist").value = 0;
+}
 
