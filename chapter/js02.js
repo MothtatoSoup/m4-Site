@@ -40,4 +40,6 @@ function getEstimate() {
 
       totalCost += photographers * hours * EMP_COST;
       totalCost += photographers * distance * TRAVEL_COST;
+      totalCost += buyBooks ? BOOK_COST : 0;
+      totalCost += buyRights ? REPRO_COST: 0;
 }
