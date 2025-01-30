@@ -15,7 +15,7 @@
 
 const EMP_COST = 100; // cost of photographers /hr
 const BOOK_COST = 350;
-const REPRO_COST = 125-;
+const REPRO_COST = 1250;
 const TRAVEL_COST = 2;
 
 window.addEventListener("load", setupForm);
@@ -28,3 +28,11 @@ function setupForm() {
       document.getElementById("photoDist").value = 0;
 }
 
+
+
+function getEstimate() {
+      let totalCost = 0;
+      let photographers = document.getElementById("photoNum").value;
+      let hours = document.getElementById("photoHrs").value;
+      let distance = document.getElementById("photoDist").value;
+}
